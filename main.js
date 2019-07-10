@@ -23,6 +23,6 @@ function createMultiplyTable(start,end){
 }
 
 
-module.exports = isStartLessThanEnd,
-module.exports = isInRange;
-module.exports = createMultiplyTable;
+module.exports = {isStartLessThanEnd,
+isInRange,
+createMultiplyTable}
